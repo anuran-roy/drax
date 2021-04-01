@@ -16,6 +16,6 @@ Drax has two types of command sets: **Display commands** and **Execution command
 1. fetch proxy : Fetches proxy IPs from either online, or a user-defined list of proxies.
 2. start : start the script. (Under construction)
 
-Other commands:
+### Other commands:
 
 1. exit (or quit) : Exit Drax
