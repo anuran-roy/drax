@@ -4,6 +4,5 @@ requests
 mechanize
 lxml
 datetime
-sys
-os
 re
+beautifulsoup4
