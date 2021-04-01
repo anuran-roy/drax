@@ -2,7 +2,7 @@
 ![image](banner.jpeg)
 
 
-Drax is a A web-app bruteforcing script that makes use of rotating proxies.
+Drax is (for now) a web-app bruteforcing script that makes use of rotating proxies.
 
 Drax has two types of command sets: **Display commands** and **Execution commands**. 
 
