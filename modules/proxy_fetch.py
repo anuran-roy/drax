@@ -24,9 +24,9 @@ def get_proxies():
                     proxy = ":".join([i.xpath('.//td[1]/text()')[0], i.xpath('.//td[2]/text()')[0]])
                     proxies.add(proxy)
         return proxies
-    except Exception as ex:
+    except Exception as e:
         #raise ProxyError
-        print(f"Error occured while fetching proxies from online. Error details: {ex}")
+        print(f"Error occured while fetching proxies from online. Error details: {e}")
         return None        
 
 def read_from_file(path):
@@ -34,9 +34,9 @@ def read_from_file(path):
         fopen=open(path,'r');
         proxies=fopen.readlines()
         return proxies
-    except Exception as ex:
+    except Exception e:
         #raise ProxyError
-        print(f"Error occured while fetching proxies from online. Error details: {ex}")
+        print(f"Error occured while fetching proxies from online. Error details: {e}")
         return None    
 
 def write_to_file(addr):
