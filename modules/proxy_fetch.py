@@ -3,9 +3,9 @@ from lxml.html import fromstring
 import sys
 from datetime import datetime
 import os
-class ProxyError(Exception):
-    '''Proxy source(s) not found.'''
-    pass
+#class ProxyError(Exception):
+#    '''Proxy source(s) not found.'''
+#    pass
 
 def get_proxies():
     try:
@@ -24,8 +24,9 @@ def get_proxies():
                     proxy = ":".join([i.xpath('.//td[1]/text()')[0], i.xpath('.//td[2]/text()')[0]])
                     proxies.add(proxy)
         return proxies
-    except:
-        raise ProxyError
+    except Exception as e:
+        #raise ProxyError
+        print(f"Error occured while fetching proxies from online. Error details: {e}")
         return None        
 
 def read_from_file(path):
@@ -33,8 +34,9 @@ def read_from_file(path):
         fopen=open(path,'r');
         proxies=fopen.readlines()
         return proxies
-    except:
-        raise ProxyError
+    except Exception e:
+        #raise ProxyError
+        print(f"Error occured while fetching proxies from online. Error details: {e}")
         return None    
 
 def write_to_file(addr):
