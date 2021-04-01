@@ -1,17 +1,6 @@
 # Drax
 ![image](banner.jpeg)
 
-________                         
-\______ \____________  ___  ___  
- |    |  \_  __ \__  \ \  \/  /  
- |    `   \  | \// __ \_>    <   
-/_______  /__|  (____  /__/\_ \  
-        \/           \/      \/  
-
-
-Brute with a mind
-
-Author: radioactvt
 
 Drax is a A web-app bruteforcing script that makes use of rotating proxies.
 
