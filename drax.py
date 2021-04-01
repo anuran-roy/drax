@@ -2,7 +2,6 @@
 #import time as t
 from pyfiglet import Figlet
 import sys
-import os
 from importlib import import_module as im
 
 try:
