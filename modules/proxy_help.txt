@@ -1,0 +1,5 @@
+
+Supported commands:
+
+1. get_proxies : Scrapes a list of proxy IP addresses from online.
+2. read_from_file : Reads a file that containsa list of proxy IP addresses.
