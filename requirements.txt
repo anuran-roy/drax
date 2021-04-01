@@ -4,5 +4,6 @@ requests
 mechanize
 lxml
 datetime
-system
+sys
 os
+re
